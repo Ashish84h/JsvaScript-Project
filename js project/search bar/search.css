@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 50vh;
+    width: auto;
+    margin: 2% 20%;
+}
+
+.main{
+    position: absolute;
+    background: rgb(222, 217, 217);
+    height: auto;
+    width: auto;
+    border-radius: 5px;
+    font-family: Arial;
+    max-height: 60%;
+    overflow: auto;
+    box-shadow:0px 0px 10px rgb(128, 131, 132);
+    border: 1px solid teal;
+}
+
+.searchBox{
+    display: flex;
+    background: teal;
+    padding: 10px;
+    border-radius:5px 5px 0px 0px;
+}
+.search{
+    width: 350px;
+    height: 35px;
+    border: none;
+    padding: 10px;
+    outline: none;
+    border-radius:5px 0px 0px 5px;
+}
+
+.searchBtn{
+    width: 100px;
+    height: 35px;
+    border: none;
+    padding: 10px;
+    outline: none;
+    border-radius:0px 5px 5px 0px;
+    background: rgb(0, 214, 252);
+    color:white;
+    font-weight: bold;
+}
+.searchBtn:hover{
+    box-shadow:0px 0px 10px rgb(0, 214, 252);
+    cursor: pointer;
+}
+.searchBtn:active{
+    box-shadow:none;
+}
+
+.displayBox{
+    display: block;
+    height: auto;
+    width: auto;
+    overflow: hidden;
+}
+a{
+    display: block;
+    width: 95%;
+    height: auto;
+    margin: 5px;
+    height: 35px;
+    padding: 10px;
+    border-radius:5px;
+    background: hwb(300 99% 0%);
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    text-decoration: none;
+}
